@@ -1,0 +1,39 @@
+@import url("../../Fonts/stylesheet.css");
+
+/* .table_container{
+    font-family: "Tactic Round Med";
+} */
+
+
+.header_table_row{
+    font-size: 24px;
+    text-align: left;
+    height: 40px;
+    cursor: default;
+}
+
+.header_table_td{   
+    font-size: 16px
+}
+
+.tr_body{
+    font-family: "Tactic Round Lgt";
+    text-align: left;
+    height: 40px;
+}
+
+.tr_body:hover{
+    transition: .1s;
+    background-color: rgb(189, 189, 189);
+    cursor: default;
+}
+
+.tr_body td, .header_table_row th{
+    align-content: center;
+    text-align: center;
+    padding: 0 16px;
+}
+
+.table{
+    width: 65%;
+}

@@ -1,0 +1,504 @@
+@font-face {
+    font-family: 'Tactic Round Ext Exd Reg';
+    src: url('TacticRoundExtExd-Reg.eot');
+    src: local('Tactic Round Ext Exd Reg'), local('TacticRoundExtExd-Reg'),
+        url('TacticRoundExtExd-Reg.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-Reg.woff2') format('woff2'),
+        url('TacticRoundExtExd-Reg.woff') format('woff'),
+        url('TacticRoundExtExd-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Ult It';
+    src: url('TacticRoundExd-UltIt.eot');
+    src: local('Tactic Round Exd Ult It'), local('TacticRoundExd-UltIt'),
+        url('TacticRoundExd-UltIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-UltIt.woff2') format('woff2'),
+        url('TacticRoundExd-UltIt.woff') format('woff'),
+        url('TacticRoundExd-UltIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Med It';
+    src: url('TacticRoundExtExd-MedIt.eot');
+    src: local('Tactic Round Ext Exd Med It'), local('TacticRoundExtExd-MedIt'),
+        url('TacticRoundExtExd-MedIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-MedIt.woff2') format('woff2'),
+        url('TacticRoundExtExd-MedIt.woff') format('woff'),
+        url('TacticRoundExtExd-MedIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Reg It';
+    src: url('TacticRoundExd-RegIt.eot');
+    src: local('Tactic Round Exd Reg It'), local('TacticRoundExd-RegIt'),
+        url('TacticRoundExd-RegIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-RegIt.woff2') format('woff2'),
+        url('TacticRoundExd-RegIt.woff') format('woff'),
+        url('TacticRoundExd-RegIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Lgt It';
+    src: url('TacticRound-LgtIt.eot');
+    src: local('Tactic Round Lgt It'), local('TacticRound-LgtIt'),
+        url('TacticRound-LgtIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-LgtIt.woff2') format('woff2'),
+        url('TacticRound-LgtIt.woff') format('woff'),
+        url('TacticRound-LgtIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Blk';
+    src: url('TacticRound-Blk.eot');
+    src: local('Tactic Round Blk'), local('TacticRound-Blk'),
+        url('TacticRound-Blk.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-Blk.woff2') format('woff2'),
+        url('TacticRound-Blk.woff') format('woff'),
+        url('TacticRound-Blk.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Reg';
+    src: url('TacticRoundExd-Reg.eot');
+    src: local('Tactic Round Exd Reg'), local('TacticRoundExd-Reg'),
+        url('TacticRoundExd-Reg.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-Reg.woff2') format('woff2'),
+        url('TacticRoundExd-Reg.woff') format('woff'),
+        url('TacticRoundExd-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Bld It';
+    src: url('TacticRoundExd-BldIt.eot');
+    src: local('Tactic Round Exd Bld It'), local('TacticRoundExd-BldIt'),
+        url('TacticRoundExd-BldIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-BldIt.woff2') format('woff2'),
+        url('TacticRoundExd-BldIt.woff') format('woff'),
+        url('TacticRoundExd-BldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Reg It';
+    src: url('TacticRound-RegIt.eot');
+    src: local('Tactic Round Reg It'), local('TacticRound-RegIt'),
+        url('TacticRound-RegIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-RegIt.woff2') format('woff2'),
+        url('TacticRound-RegIt.woff') format('woff'),
+        url('TacticRound-RegIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Reg';
+    src: url('TacticRound-Reg.eot');
+    src: local('Tactic Round Reg'), local('TacticRound-Reg'),
+        url('TacticRound-Reg.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-Reg.woff2') format('woff2'),
+        url('TacticRound-Reg.woff') format('woff'),
+        url('TacticRound-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Thn It';
+    src: url('TacticRound-ThnIt.eot');
+    src: local('Tactic Round Thn It'), local('TacticRound-ThnIt'),
+        url('TacticRound-ThnIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-ThnIt.woff2') format('woff2'),
+        url('TacticRound-ThnIt.woff') format('woff'),
+        url('TacticRound-ThnIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Bld It';
+    src: url('TacticRoundExtExd-BldIt.eot');
+    src: local('Tactic Round Ext Exd Bld It'), local('TacticRoundExtExd-BldIt'),
+        url('TacticRoundExtExd-BldIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-BldIt.woff2') format('woff2'),
+        url('TacticRoundExtExd-BldIt.woff') format('woff'),
+        url('TacticRoundExtExd-BldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Blk It';
+    src: url('TacticRoundExtExd-BlkIt.eot');
+    src: local('Tactic Round Ext Exd Blk It'), local('TacticRoundExtExd-BlkIt'),
+        url('TacticRoundExtExd-BlkIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-BlkIt.woff2') format('woff2'),
+        url('TacticRoundExtExd-BlkIt.woff') format('woff'),
+        url('TacticRoundExtExd-BlkIt.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Lgt';
+    src: url('TacticRound-Lgt.eot');
+    src: local('Tactic Round Lgt'), local('TacticRound-Lgt'),
+        url('TacticRound-Lgt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-Lgt.woff2') format('woff2'),
+        url('TacticRound-Lgt.woff') format('woff'),
+        url('TacticRound-Lgt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Med';
+    src: url('TacticRound-Med.eot');
+    src: local('Tactic Round Med'), local('TacticRound-Med'),
+        url('TacticRound-Med.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-Med.woff2') format('woff2'),
+        url('TacticRound-Med.woff') format('woff'),
+        url('TacticRound-Med.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Thn';
+    src: url('TacticRoundExd-Thn.eot');
+    src: local('Tactic Round Exd Thn'), local('TacticRoundExd-Thn'),
+        url('TacticRoundExd-Thn.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-Thn.woff2') format('woff2'),
+        url('TacticRoundExd-Thn.woff') format('woff'),
+        url('TacticRoundExd-Thn.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Thn';
+    src: url('TacticRoundExtExd-Thn.eot');
+    src: local('Tactic Round Ext Exd Thn'), local('TacticRoundExtExd-Thn'),
+        url('TacticRoundExtExd-Thn.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-Thn.woff2') format('woff2'),
+        url('TacticRoundExtExd-Thn.woff') format('woff'),
+        url('TacticRoundExtExd-Thn.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Blk It';
+    src: url('TacticRoundExd-BlkIt.eot');
+    src: local('Tactic Round Exd Blk It'), local('TacticRoundExd-BlkIt'),
+        url('TacticRoundExd-BlkIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-BlkIt.woff2') format('woff2'),
+        url('TacticRoundExd-BlkIt.woff') format('woff'),
+        url('TacticRoundExd-BlkIt.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Ult';
+    src: url('TacticRoundExd-Ult.eot');
+    src: local('Tactic Round Exd Ult'), local('TacticRoundExd-Ult'),
+        url('TacticRoundExd-Ult.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-Ult.woff2') format('woff2'),
+        url('TacticRoundExd-Ult.woff') format('woff'),
+        url('TacticRoundExd-Ult.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Lgt It';
+    src: url('TacticRoundExd-LgtIt.eot');
+    src: local('Tactic Round Exd Lgt It'), local('TacticRoundExd-LgtIt'),
+        url('TacticRoundExd-LgtIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-LgtIt.woff2') format('woff2'),
+        url('TacticRoundExd-LgtIt.woff') format('woff'),
+        url('TacticRoundExd-LgtIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Med';
+    src: url('TacticRoundExd-Med.eot');
+    src: local('Tactic Round Exd Med'), local('TacticRoundExd-Med'),
+        url('TacticRoundExd-Med.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-Med.woff2') format('woff2'),
+        url('TacticRoundExd-Med.woff') format('woff'),
+        url('TacticRoundExd-Med.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Blk';
+    src: url('TacticRoundExtExd-Blk.eot');
+    src: local('Tactic Round Ext Exd Blk'), local('TacticRoundExtExd-Blk'),
+        url('TacticRoundExtExd-Blk.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-Blk.woff2') format('woff2'),
+        url('TacticRoundExtExd-Blk.woff') format('woff'),
+        url('TacticRoundExtExd-Blk.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Med It';
+    src: url('TacticRoundExd-MedIt.eot');
+    src: local('Tactic Round Exd Med It'), local('TacticRoundExd-MedIt'),
+        url('TacticRoundExd-MedIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-MedIt.woff2') format('woff2'),
+        url('TacticRoundExd-MedIt.woff') format('woff'),
+        url('TacticRoundExd-MedIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ult It';
+    src: url('TacticRound-UltIt.eot');
+    src: local('Tactic Round Ult It'), local('TacticRound-UltIt'),
+        url('TacticRound-UltIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-UltIt.woff2') format('woff2'),
+        url('TacticRound-UltIt.woff') format('woff'),
+        url('TacticRound-UltIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Lgt';
+    src: url('TacticRoundExtExd-Lgt.eot');
+    src: local('Tactic Round Ext Exd Lgt'), local('TacticRoundExtExd-Lgt'),
+        url('TacticRoundExtExd-Lgt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-Lgt.woff2') format('woff2'),
+        url('TacticRoundExtExd-Lgt.woff') format('woff'),
+        url('TacticRoundExtExd-Lgt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Lgt';
+    src: url('TacticRoundExd-Lgt.eot');
+    src: local('Tactic Round Exd Lgt'), local('TacticRoundExd-Lgt'),
+        url('TacticRoundExd-Lgt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-Lgt.woff2') format('woff2'),
+        url('TacticRoundExd-Lgt.woff') format('woff'),
+        url('TacticRoundExd-Lgt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Ult It';
+    src: url('TacticRoundExtExd-UltIt.eot');
+    src: local('Tactic Round Ext Exd Ult It'), local('TacticRoundExtExd-UltIt'),
+        url('TacticRoundExtExd-UltIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-UltIt.woff2') format('woff2'),
+        url('TacticRoundExtExd-UltIt.woff') format('woff'),
+        url('TacticRoundExtExd-UltIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Bld It';
+    src: url('TacticRound-BldIt.eot');
+    src: local('Tactic Round Bld It'), local('TacticRound-BldIt'),
+        url('TacticRound-BldIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-BldIt.woff2') format('woff2'),
+        url('TacticRound-BldIt.woff') format('woff'),
+        url('TacticRound-BldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Ult';
+    src: url('TacticRoundExtExd-Ult.eot');
+    src: local('Tactic Round Ext Exd Ult'), local('TacticRoundExtExd-Ult'),
+        url('TacticRoundExtExd-Ult.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-Ult.woff2') format('woff2'),
+        url('TacticRoundExtExd-Ult.woff') format('woff'),
+        url('TacticRoundExtExd-Ult.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Lgt It';
+    src: url('TacticRoundExtExd-LgtIt.eot');
+    src: local('Tactic Round Ext Exd Lgt It'), local('TacticRoundExtExd-LgtIt'),
+        url('TacticRoundExtExd-LgtIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-LgtIt.woff2') format('woff2'),
+        url('TacticRoundExtExd-LgtIt.woff') format('woff'),
+        url('TacticRoundExtExd-LgtIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Thn It';
+    src: url('TacticRoundExd-ThnIt.eot');
+    src: local('Tactic Round Exd Thn It'), local('TacticRoundExd-ThnIt'),
+        url('TacticRoundExd-ThnIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-ThnIt.woff2') format('woff2'),
+        url('TacticRoundExd-ThnIt.woff') format('woff'),
+        url('TacticRoundExd-ThnIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Bld';
+    src: url('TacticRoundExd-Bld.eot');
+    src: local('Tactic Round Exd Bld'), local('TacticRoundExd-Bld'),
+        url('TacticRoundExd-Bld.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-Bld.woff2') format('woff2'),
+        url('TacticRoundExd-Bld.woff') format('woff'),
+        url('TacticRoundExd-Bld.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Med It';
+    src: url('TacticRound-MedIt.eot');
+    src: local('Tactic Round Med It'), local('TacticRound-MedIt'),
+        url('TacticRound-MedIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-MedIt.woff2') format('woff2'),
+        url('TacticRound-MedIt.woff') format('woff'),
+        url('TacticRound-MedIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ult';
+    src: url('TacticRound-Ult.eot');
+    src: local('Tactic Round Ult'), local('TacticRound-Ult'),
+        url('TacticRound-Ult.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-Ult.woff2') format('woff2'),
+        url('TacticRound-Ult.woff') format('woff'),
+        url('TacticRound-Ult.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Thn';
+    src: url('TacticRound-Thn.eot');
+    src: local('Tactic Round Thn'), local('TacticRound-Thn'),
+        url('TacticRound-Thn.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-Thn.woff2') format('woff2'),
+        url('TacticRound-Thn.woff') format('woff'),
+        url('TacticRound-Thn.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Bld';
+    src: url('TacticRound-Bld.eot');
+    src: local('Tactic Round Bld'), local('TacticRound-Bld'),
+        url('TacticRound-Bld.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-Bld.woff2') format('woff2'),
+        url('TacticRound-Bld.woff') format('woff'),
+        url('TacticRound-Bld.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Exd Blk';
+    src: url('TacticRoundExd-Blk.eot');
+    src: local('Tactic Round Exd Blk'), local('TacticRoundExd-Blk'),
+        url('TacticRoundExd-Blk.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExd-Blk.woff2') format('woff2'),
+        url('TacticRoundExd-Blk.woff') format('woff'),
+        url('TacticRoundExd-Blk.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Reg It';
+    src: url('TacticRoundExtExd-RegIt.eot');
+    src: local('Tactic Round Ext Exd Reg It'), local('TacticRoundExtExd-RegIt'),
+        url('TacticRoundExtExd-RegIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-RegIt.woff2') format('woff2'),
+        url('TacticRoundExtExd-RegIt.woff') format('woff'),
+        url('TacticRoundExtExd-RegIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Bld';
+    src: url('TacticRoundExtExd-Bld.eot');
+    src: local('Tactic Round Ext Exd Bld'), local('TacticRoundExtExd-Bld'),
+        url('TacticRoundExtExd-Bld.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-Bld.woff2') format('woff2'),
+        url('TacticRoundExtExd-Bld.woff') format('woff'),
+        url('TacticRoundExtExd-Bld.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Thn It';
+    src: url('TacticRoundExtExd-ThnIt.eot');
+    src: local('Tactic Round Ext Exd Thn It'), local('TacticRoundExtExd-ThnIt'),
+        url('TacticRoundExtExd-ThnIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-ThnIt.woff2') format('woff2'),
+        url('TacticRoundExtExd-ThnIt.woff') format('woff'),
+        url('TacticRoundExtExd-ThnIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Tactic Round Ext Exd Med';
+    src: url('TacticRoundExtExd-Med.eot');
+    src: local('Tactic Round Ext Exd Med'), local('TacticRoundExtExd-Med'),
+        url('TacticRoundExtExd-Med.eot?#iefix') format('embedded-opentype'),
+        url('TacticRoundExtExd-Med.woff2') format('woff2'),
+        url('TacticRoundExtExd-Med.woff') format('woff'),
+        url('TacticRoundExtExd-Med.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tactic Round Blk It';
+    src: url('TacticRound-BlkIt.eot');
+    src: local('Tactic Round Blk It'), local('TacticRound-BlkIt'),
+        url('TacticRound-BlkIt.eot?#iefix') format('embedded-opentype'),
+        url('TacticRound-BlkIt.woff2') format('woff2'),
+        url('TacticRound-BlkIt.woff') format('woff'),
+        url('TacticRound-BlkIt.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
