@@ -17,6 +17,7 @@ import Footer from './components/footer/Footer';
 import { useState, useEffect } from 'react';
 
 import { AuthProvider } from './Context/AuthContext';
+
 import { useAuthentication } from './hooks/useAuthentication';
 
 function App() {
