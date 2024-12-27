@@ -11,7 +11,7 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 
 //components
-import NavBar from './components/nav-bar/navBar';
+import NavBar from './components/nav-bar/NavBar';
 import Footer from './components/footer/Footer';
 
 import { useState, useEffect } from 'react';
