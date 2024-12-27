@@ -16,7 +16,7 @@ import Footer from './components/footer/Footer';
 
 import { useState, useEffect } from 'react';
 
-import { AuthProvider } from './context/AuthContext';
+import { AuthProvider } from './context/AuthProvider';
 import { useAuthentication } from './hooks/useAuthentication';
 
 function App() {
@@ -39,7 +39,6 @@ function App() {
 
   return (
     <AuthProvider value={{ user }}>
-
       <BrowserRouter>
         <div className='container_app'>
           <NavBar />

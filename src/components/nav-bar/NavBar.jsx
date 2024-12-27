@@ -7,7 +7,7 @@ import styles from "./NavBar.module.css"
 import logo from "../../assets/LOGO_X1_TPP.png"
 
 import { useAuthentication } from "../../hooks/useAuthentication"
-import { useAuthValue } from "../../context/AuthContext"
+import { useAuthValue } from "../../Context/AuthContext"
 
 const NavBar = () => {
 
