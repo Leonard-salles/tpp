@@ -12,6 +12,7 @@ import { useAuthValue } from "../../context/AuthContext"
 const NavBar = () => {
 
     const { user } = useAuthValue()
+
     const { logout } = useAuthentication()
 
     return (
@@ -22,9 +23,6 @@ const NavBar = () => {
             <nav className={styles.container_links}>
                 {/* NavLink makes it easy to show active states */}
 
-
-                {user && <>
-                
                 <NavLink
                     to="/"
                     className={({ isActive }) =>
@@ -33,6 +31,9 @@ const NavBar = () => {
                 >
                     Home
                 </NavLink>
+
+                {user && <>
+                
 
                     <NavLink
                         to="/tabela"
