@@ -54,8 +54,14 @@ const Register = () => {
     console.log(user)
 
     const res = await createUser(user)
-    console.log(res)
 
+    setDisplayName("")
+    setCompleteName("")
+    setEmail("")
+    setLolName("")
+    setPassword("")
+    setConfirmPassword("")
+    
   }
 
 
