@@ -5,7 +5,7 @@ import './App.css'
 
 //pages
 import Home from './pages/home/Home';
-import Table from './pages/table/table';
+import Table from './pages/table/Table';
 import Pontuacao from './pages/pontuação/Pontuacao';
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
