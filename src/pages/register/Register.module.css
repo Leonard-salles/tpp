@@ -77,6 +77,7 @@
     cursor: pointer;
     font-family: "Tactic Round Lgt";
     transition: .2s;
+    user-select: none;
 }
 
 .button:hover{

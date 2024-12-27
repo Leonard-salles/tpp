@@ -9,8 +9,10 @@ const Home = () => {
 
   return (
     <div>
-      {user&& <h1 style={{padding: "16px"}}>Olá, seja bem vindo {user.displayName}</h1>}
-      <h1 style={{padding: "16px"}}>Olá, seja bem vindo </h1>
+      {user ? <h1 style={{ padding: "16px" }}>Olá, seja bem vindo {user.displayName}</h1>
+        :
+        <h1 style={{ padding: "16px" }}>Olá, seja bem vindo </h1>
+      }
     </div>
   )
 }
