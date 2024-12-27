@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router";
 
 import styles from "./NavBar.module.css"
 
-// import logo from "../../assets/LOGO_X1_TPP.png"
+import logo from "../../assets/LOGO_X1_TPP.png"
 
 import { useAuthentication } from "../../hooks/useAuthentication"
 import { useAuthValue } from "../../Context/AuthContext"
@@ -17,7 +17,7 @@ const NavBar = () => {
     return (
         <div className={styles.nav_container}>
             <Link to="/">
-                {/* <img className={styles.logo} src={logo} alt="logo tpp" /> */}
+                <img className={styles.logo} src={logo} alt="logo tpp" />
             </Link>
             <nav className={styles.container_links}>
                 {/* NavLink makes it easy to show active states */}
