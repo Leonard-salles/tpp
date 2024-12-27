@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { useAuthValue } from "../../Context/AuthContext"
+import { useAuthValue } from "../../context/AuthContext"
 
 const Home = () => {
 
@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1 style={{padding: "16px"}}>Olá, seja bem vindo {user.displayName}   :)</h1>
+      {user&& <h1 style={{padding: "16px"}}>Olá, seja bem vindo {user.displayName}</h1>}
     </div>
   )
 }
